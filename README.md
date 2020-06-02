@@ -26,13 +26,24 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+React is a JS library used to build interactive User Interfaces. We use it to build components, including state componenets that use useState(), and allow us to make more complex UIs. React takes care a lot of the work of offloading state data that our applications use from the DOM. React tries and solves the problem of having to deal with large incoming data by providing an easier way to reuse our components. It is not a framework but renders UI very well. 
+
 - [ ] What does it mean to _think_ in react?
+
+To think in react means to plan out how you write your code and think of how you will build your apps. You will spend a majority of your time reading code and others will read yours so it is important to write code that makes sense. This comes in terms of how you set up your components, hierarchy, and UI state. 
 
 - [ ] Describe state.
 
+State is an object that determines how a component is rendered and how it behaves. States are highly important in React because of this. They allow us to create components that are dynamic and interactive. 
+
 - [ ] Describe props.
 
+Components share their state and do this with a helper object called props. We never make changes to props, it is read only. We do this to keep things organized, clean, and easy to find where changes are made. Props are variables passed from their parent component. 
+
 - [ ] What are side effects, and how do you sync effects in a React component to state or prop changes?
+
+A side effect is anything that affects something outside the scope of our function that is being executed. There are two kinds, ones we need to clean and ones we do not.
+We can sync our side effects with state or props changes by passing in a dependency array as the 2nd argument to the effect hook. 
 
 ## Project Set Up
 
